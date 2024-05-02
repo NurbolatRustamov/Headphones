@@ -1,0 +1,104 @@
+.subscribe {
+  padding-bottom: 130px;
+  .res-div {
+    display: flex;
+    justify-content: center;
+  }
+  .consectetur {
+    border-radius: 20px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    padding-left: 105px;
+    padding-right: 103px;
+    background-color: #fff4f4;
+    .texts {
+      color: #180202;
+      font-family: "Rubik", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 57.2px;
+      text-align: center;
+      padding-bottom: 6px;
+    }
+    .lorem-text {
+      color: #180202;
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      padding-bottom: 36px;
+    }
+    input {
+      outline: none;
+      background-color: #fff;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 30px;
+      padding-right: 266px;
+      border-radius: 73px;
+      border: none;
+      font-family: "Rubik", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-align: left;
+      color: #696868;
+    }
+    button {
+      border: none;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 50px;
+      font-family: "Rubik", sans-serif;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 30.8px;
+      text-align: left;
+      background-color: #ff4948;
+    }
+  }
+}
+@media (max-width: 953px) {
+  .subscribe {
+    .consectetur {
+      padding-left: 19px;
+      padding-right: 19px;
+    }
+  }
+}
+@media (max-width: 765px) {
+  .subscribe {
+    .consectetur {
+      input {
+        padding-right: 132px;
+      }
+    }
+  }
+}
+@media (max-width: 633px) {
+  .subscribe {
+    .consectetur {
+      input {
+        padding-right: 27px;
+      }
+    }
+  }
+}
+@media (max-width: 549px) {
+  form {
+    display: block;
+    button {
+      display: flex;
+      margin: 0 auto;
+    }
+    input {
+      margin-bottom: 20px;
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}

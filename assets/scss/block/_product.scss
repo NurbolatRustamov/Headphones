@@ -1,0 +1,141 @@
+.product {
+  .latest {
+    font-family: "Rubik", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    text-align: center;
+    color: #180202;
+  }
+  .lorem {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #180202;
+  }
+  .products {
+    padding-top: 43px;
+    display: flex;
+    justify-content: space-around;
+    &_text {
+      p {
+        font-family: "Rubik", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30.8px;
+        text-align: left;
+        color: #180202;
+      }
+      &_one {
+        padding-top: 35px;
+        padding-bottom: 15px;
+        display: flex;
+        gap: 98px;
+      }
+      &_two {
+        display: flex;
+        gap: 79px;
+        padding-bottom: 130px;
+      }
+    }
+    &_one {
+      &_img {
+        width: 332px;
+        height: 361px;
+        border-radius: 30px;
+        background-color: #ffe5ee;
+        img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+    }
+    &_two {
+      &_img {
+        width: 332px;
+        height: 361px;
+        border-radius: 30px;
+        background-color: #e5f1ff;
+        img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+    }
+    &_three {
+      &_img {
+        width: 332px;
+        height: 361px;
+        border-radius: 30px;
+        background-color: #e5fffb;
+        img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1088px) {
+  .product {
+    .latest {
+      font-size: 29px;
+      line-height: 43px;
+    }
+    .products {
+      &_text {
+        &_one {
+          gap: 51px;
+        }
+        &_two {
+          gap: 35px;
+        }
+      }
+      &_one {
+        &_img {
+          img {
+            width: 211px;
+          }
+          height: 299px;
+          width: 299px;
+        }
+      }
+      &_two {
+        &_img {
+          img {
+            width: 211px;
+          }
+          height: 299px;
+          width: 299px;
+        }
+      }
+      &_three {
+        &_img {
+          img {
+            width: 211px;
+          }
+          height: 299px;
+          width: 299px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 980px) {
+  .product {
+    .products {
+      display: block;
+      &_text {
+        &_two {
+          padding-bottom: 35px;
+        }
+      }
+    }
+  }
+  .res-products {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,93 @@
+.headphones {
+  display: flex;
+  justify-content: space-around;
+  &_img {
+    padding-top: 196px;
+  }
+  &_text {
+    .need {
+      padding-top: 130px;
+      font-family: "Rubik", sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 57.2px;
+      text-align: left;
+      padding-bottom: 60px;
+    }
+    ul {
+      padding-bottom: 131px;
+      li {
+        align-items: center;
+        display: flex;
+        gap: 20px;
+
+        .lione {
+          font-family: "Rubik", sans-serif;
+          font-size: 31px;
+          font-weight: 500;
+          line-height: 43.4px;
+          text-align: left;
+        }
+        .litwo {
+          color: #180202;
+          font-family: "Rubik", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+        }
+        .lithree {
+          font-family: "Rubik", sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: left;
+          color: #ff4948;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 792px) {
+  .headphones {
+    .res-ul {
+      display: flex;
+      justify-content: center;
+    }
+    display: block;
+    &_text {
+      ul {
+        padding-bottom: 0px;
+      }
+      .need {
+        text-align: center;
+      }
+    }
+    &_img {
+      img {
+        display: flex;
+        margin: 0 auto;
+      }
+      padding-top: 73px;
+    }
+  }
+}
+@media (max-width: 492px) {
+  .headphones {
+    &_text {
+      .need {
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+@media (max-width: 344px) {
+  .headphones {
+    &_img {
+      img {
+        width: 300px;
+      }
+    }
+  }
+}

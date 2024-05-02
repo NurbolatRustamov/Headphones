@@ -1,0 +1,58 @@
+.colection {
+  p {
+    padding-top: 130px;
+    padding-bottom: 70px;
+    font-family: "Rubik", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    text-align: center;
+  }
+  .music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    &_images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: 1370px) {
+  .colection {
+    .music {
+      &_images {
+        display: block;
+        img {
+          display: flex;
+          margin: 0 auto;
+        }
+      }
+      &_left,
+      &_right {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 693px) {
+  .colection {
+    p {
+      font-size: 25px;
+      line-height: 33px;
+    }
+    .music {
+      &_images {
+        .blue {
+          width: 320px;
+        }
+        .red,
+        .orange {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
